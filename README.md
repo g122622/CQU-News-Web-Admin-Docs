@@ -1,3 +1,3 @@
-## 📚📚📚 Geeker-Admin 文档
+## 📚📚📚 CQU-News-Web-Admin 文档
 
 - Link：https://docs.spicyboy.cn

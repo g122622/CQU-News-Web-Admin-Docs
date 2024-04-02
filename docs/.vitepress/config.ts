@@ -7,7 +7,7 @@ export default {
 	base: "/docs/CQU/",
 	head: [
 		["meta", { name: "author", content: "Guo Yi" }],
-		["meta", { name: "keywords", content: "Geeker, Geeker-Admin, Geeker-Admin-Docs, Vite, Vue, Vue3, Admin" }],
+		["meta", { name: "keywords", content: "Geeker, CQU-News-Web-Admin, CQU-News-Web-Admin-Docs, Vite, Vue, Vue3, Admin" }],
 		["link", { rel: "icon", href: "/logo.svg" }],
 		["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
 		["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
@@ -19,13 +19,13 @@ export default {
 		algolia: {
 			appId: "YMXN47DKMJ",
 			apiKey: "8bf7d8e2b7e7b32a95f5aec9aca38a70",
-			indexName: "Geeker-Admin",
+			indexName: "CQU-News-Web-Admin",
 		},
 		editLink: {
 			text: "为此页提供修改建议",
 			pattern: "https://github.com/g122622/CQU-News-Web-Admin-Docs",
 		},
-		socialLinks: [{ icon: "github", link: "https://github.com/HalseySpicy/Geeker-Admin" }],
+		socialLinks: [{ icon: "github", link: "https://github.com/g122622/CQU-News-Web-Admin" }],
 		footer: {
 			message: "MIT License.",
 			copyright: "Copyright © 2024 CQU",
@@ -49,10 +49,10 @@ export default {
 				text: "相关链接",
 				items: [
 					{ text: "预览地址", link: "https://admin.spicyboy.cn/" },
-					{ text: "Gitee 源码", link: "https://gitee.com/HalseySpicy/Geeker-Admin" },
-					{ text: "GitHub 源码", link: "https://github.com/HalseySpicy/Geeker-Admin" },
-					{ text: "文档源码", link: "https://github.com/HalseySpicy/Geeker-Admin-Docs" },
-					{ text: "更新日志", link: "https://github.com/HalseySpicy/Geeker-Admin/blob/master/CHANGELOG.md" },
+					{ text: "Gitee 源码", link: "https://gitee.com/g122622/CQU-News-Web-Admin" },
+					{ text: "GitHub 源码", link: "https://github.com/g122622/CQU-News-Web-Admin" },
+					{ text: "文档源码", link: "https://github.com/g122622/CQU-News-Web-Admin-Docs" },
+					{ text: "更新日志", link: "https://github.com/g122622/CQU-News-Web-Admin/blob/master/CHANGELOG.md" },
 				],
 			},
 			{ text: "🍵 赞助", link: "/sponsor/index" },
@@ -65,7 +65,7 @@ export default {
 		sidebar: {
 			"/guide/": [
 				{
-					text: "指南",
+					text: "概览",
 					collapsible: true,
 					items: [
 						{ text: "介绍", link: "/guide/introduce" },

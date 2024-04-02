@@ -1,6 +1,6 @@
 # 路由、菜单
 
-路由配置在 [src/routers](https://github.com/HalseySpicy/Geeker-Admin/tree/master/src/routers) 文件下面：
+路由配置在 [src/routers](https://github.com/g122622/CQU-News-Web-Admin/tree/master/src/routers) 文件下面：
 
 ::: tip
 
@@ -61,7 +61,7 @@ interface RouteRecordRaw {
 ## 路由实现
 
 - 默认根据后端接口返回的数据生成动态路由
-- 如果想把路由变成本地，直接更改 [src/api/modules/login.ts => getAuthMenuListApi](https://github.com/HalseySpicy/Geeker-Admin/blob/master/src/api/modules/login.ts) 方法
+- 如果想把路由变成本地，直接更改 [src/api/modules/login.ts => getAuthMenuListApi](https://github.com/g122622/CQU-News-Web-Admin/blob/master/src/api/modules/login.ts) 方法
 
 ```typescript
 import authMenuList from "@/assets/json/authMenuList.json";

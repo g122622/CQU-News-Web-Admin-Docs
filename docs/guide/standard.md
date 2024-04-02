@@ -8,7 +8,7 @@
 - Link（v2）：https://v2.cn.vuejs.org/v2/style-guide
 
 :::warning
-💢 Geeker Admin 采用 Vue 官方推荐的风格指南，请务必查看
+💢 CQU-News-Web-Admin 采用 Vue 官方推荐的风格指南，请务必查看
 :::
 
 ## 代码格式化工具（Prettier）

@@ -1,9 +1,9 @@
 # 目录结构
 
-## Geeker-Admin 目录说明 📚
+## CQU-News-Web-Admin 目录说明 📚
 
 ```txt
-Geeker-Admin
+CQU-News-Web-Admin
 ├─ .husky                 # husky 配置文件
 ├─ .vscode                # VSCode 推荐配置
 ├─ build                  # Vite 配置项

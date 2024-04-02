@@ -2,12 +2,12 @@
 
 ## 简介
 
-[Geeker Admin](https://github.com/HalseySpicy/Geeker-Admin) 一款基于 Vue3.3、TypeScript、Vite3、Pinia、Element-Plus 开源的后台管理框架，使用目前最新技术栈开发。项目提供强大的 [ProTable](../components/proTable.md) 组件，在一定程度上节省您的开发效率。另外本项目还封装了一些常用组件、hooks、指令、动态路由、按钮级别权限控制等功能。
+[CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 一款基于 Vue3.3、TypeScript、Vite3、Pinia、Element-Plus 开源的后台管理系统，使用目前最新技术栈开发。项目提供强大的 [ProTable](../components/proTable.md) 组件，在一定程度上提升我们的开发效率。另外本项目还封装了一些常用组件、hooks、指令、动态路由、按钮级别权限控制等功能。
 
 ## 文档
 
-- 中文文档源码在 [Geeker-Admin-Docs](https://github.com/HalseySpicy/Geeker-Admin-Docs)，采用 [VitePress](https://vitepress.vuejs.org/) 开发。
-- 如发现文档有误，欢迎提交 [Pull requests](https://github.com/HalseySpicy/Geeker-Admin-Docs/pulls) 帮助我们改进。
+- 中文文档源码在 [CQU-News-Web-Admin-Docs](https://github.com/g122622/CQU-News-Web-Admin-Docs)，采用 [VitePress](https://vitepress.vuejs.org/) 开发。
+- 如发现文档有误，欢迎提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls) 帮助我们改进。
 
 ### 本地运行文档
 
@@ -15,7 +15,7 @@
 
 ```bash
 # 拉取代码
-git clone https://github.com/HalseySpicy/Geeker-Admin-Docs.git
+git clone https://github.com/g122622/CQU-News-Web-Admin-Docs.git
 
 # 安装依赖
 pnpm install
@@ -57,13 +57,12 @@ pnpm docs:build
 
 ## 如何加入我们 ？
 
-- [Geeker Admin](https://github.com/HalseySpicy/Geeker-Admin) 目前还在持续更新中，本项目欢迎并鼓励您的参与，我们共同努力维护和改进它 💪。项目使用 MIT 开源协议，遵循免费原则，不会收取任何费用和版权费用，您可以放心使用它。
-- 如果您想加入此项目，可以多提供一些好的建议或者提交 [Pull requests](https://github.com/HalseySpicy/Geeker-Admin-Docs/pulls)。
+- [CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 目前还在持续更新中，本项目欢迎并鼓励您的参与，我们共同努力维护和改进它 💪。项目使用 MIT 开源协议，遵循免费原则，不会收取任何费用和版权费用，您可以放心使用它。
+- 如果您想加入此项目，可以多提供一些好的建议或者提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls)。
 
 <script setup> 
 const contributor = [
-	{src:'https://avatars.githubusercontent.com/u/51069636?v=4',link:'https://github.com/HalseySpicy'},
-  {src:'https://avatars.githubusercontent.com/u/46669447?v=4',link:'https://github.com/denganjia'}
+	{src:'https://avatars.githubusercontent.com/u/51069636?v=4',link:'https://github.com/g122622'},
 ]
 </script>
 

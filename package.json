@@ -1,19 +1,17 @@
 {
-	"name": "geeker-admin-docs",
+	"name": "CQU-News-Web-Admin-docs",
 	"version": "1.1.0",
-	"description": "Geeker-Admin 开源管理系统文档",
+	"description": "CQU-News-Web-Admin 开源管理系统文档",
 	"author": {
-		"name": "HalseySpicy",
+		"name": "g122622",
 		"email": "848130454@qq.com",
-		"url": "https://github.com/HalseySpicy"
+		"url": "https://github.com/g122622"
 	},
 	"license": "MIT",
-	"homepage": "https://github.com/HalseySpicy/Geeker-Admin-Docs",
+	"homepage": "https://github.com/g122622/CQU-News-Web-Admin-Docs",
 	"scripts": {
 		"docs:dev": "vitepress dev docs --host",
-		"docs:dev-ja": "vitepress dev docs-ja --host",
 		"docs:build": "vitepress build docs",
-		"docs:build-ja": "vitepress build docs-ja",
 		"docs:preview": "vitepress preview docs"
 	},
 	"devDependencies": {
