@@ -1,7 +1,7 @@
 import mdItCustomAttrs from "markdown-it-custom-attrs";
 
 export default {
-	title: "重庆大学新闻网后台管理系统-开发者文档",
+	title: "CQU_News-开发者文档",
 	lang: "zh-CN",
 	description: "重庆大学新闻网后台管理系统-开发者文档",
 	base: "/docs/CQU/",
