@@ -1,6 +1,6 @@
 {
-	"index_name": "Geeker-Admin",
-	"start_urls": ["https://docs.spicyboy.cn/"],
+	"index_name": "CQU-News-Web-Admin",
+	"start_urls": ["https://charwind.top/docs/CQU/"],
 	"rateLimit": 8,
 	"maxDepth": 10,
 	"selectors": {
