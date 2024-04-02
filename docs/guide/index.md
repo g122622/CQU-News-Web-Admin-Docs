@@ -1,14 +1,14 @@
 # 快速上手
 
-本文会帮助你从头启动、搭建此项目
+本文会帮助你从头启动、搭建CQU-News-Web-Admin这个项目。
 
 ## 环境准备
 
-本地环境需要安装 [Node.js 16.x+](https://nodejs.org/en/)、[pnpm 7.x+](https://github.com/pnpm/pnpm/)、[Git](https://git-scm.com/)
+本地环境需要安装 [Node.js 16.x](https://nodejs.org/en/)、[pnpm 7.x](https://github.com/pnpm/pnpm/)、[Git](https://git-scm.com/)
 :::warning
-Node.js 版本推荐安装 **16+** 以上，版本过低依赖包可能安装失败。
+大家的Node.js 版本统一为 **16** ，版本过低依赖包可能安装失败，版本过高可能会导致一些奇怪的问题，例如SSL错误。
 
-默认使用 pnpm 作为安装依赖包工具，使用 yarn、npm 没有 lock 可能会安装到最新版依赖。
+另外注意本项目大家只能统一使用 pnpm 作为安装依赖包工具，使用 yarn、npm 没有 lock 可能会导致依赖版本问题。
 :::
 
 ## 工具配置
@@ -45,18 +45,13 @@ Node.js 版本推荐安装 **16+** 以上，版本过低依赖包可能安装失
 
 ## 代码拉取
 
-### 从 Gitee 拉取代码：
-
-```bash
-# 克隆代码
-git clone https://gitee.com/HalseySpicy/Geeker-Admin.git
-```
+请自备梯子。
 
 ### 从 GitHub 拉取代码：
 
 ```bash
 # 克隆代码
-git clone https://github.com/HalseySpicy/Geeker-Admin.git
+git clone https://github.com/...
 ```
 
 ## 安装使用步骤
