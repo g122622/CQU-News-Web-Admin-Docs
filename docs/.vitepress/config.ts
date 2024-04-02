@@ -1,11 +1,12 @@
 import mdItCustomAttrs from "markdown-it-custom-attrs";
 
 export default {
-	title: "Geeker-Admin",
+	title: "重庆大学新闻网后台管理系统-开发者文档",
 	lang: "zh-CN",
-	description: "Geeker Admin 中文文档",
+	description: "重庆大学新闻网后台管理系统-开发者文档",
+	base: "/docs/CQU/",
 	head: [
-		["meta", { name: "author", content: "HalseySpicy" }],
+		["meta", { name: "author", content: "Guo Yi" }],
 		["meta", { name: "keywords", content: "Geeker, Geeker-Admin, Geeker-Admin-Docs, Vite, Vue, Vue3, Admin" }],
 		["link", { rel: "icon", href: "/logo.svg" }],
 		["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
@@ -22,12 +23,12 @@ export default {
 		},
 		editLink: {
 			text: "为此页提供修改建议",
-			pattern: "https://github.com/HalseySpicy/Geeker-Admin-Docs",
+			pattern: "https://github.com/g122622/CQU-News-Web-Admin-Docs",
 		},
 		socialLinks: [{ icon: "github", link: "https://github.com/HalseySpicy/Geeker-Admin" }],
 		footer: {
 			message: "MIT License.",
-			copyright: "Copyright © 2022 Geeker-Admin",
+			copyright: "Copyright © 2024 CQU",
 		},
 		nav: [
 			{ text: "指南", link: "/guide/", activeMatch: "/guide" },
