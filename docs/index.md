@@ -1,23 +1,23 @@
 ---
 layout: home
 
-title: Geeker-Admin
-titleTemplate: 一款简单易用的中后台模版
+title: CQU-News-Web-Admin
+titleTemplate: 重庆大学新闻网后台管理系统-开发者文档
 
 hero:
-  name: Geeker-Admin
-  text: 简单易用的中后台模版
+  name: CQU-News-Web-Admin
+  text: 重庆大学新闻网后台管理系统-开发者文档
   tagline: 基于 Vue3.3 + Vite4 + TS + Pinia + Element-Plus
   actions:
     - theme: brand
-      text: 快速上手
+      text: 查看文档
       link: /guide/index
     - theme: alt
-      text: 在线预览
+      text: 进入系统
       link: https://admin.spicyboy.cn
     - theme: alt
       text: 在 Github 上查看
-      link: https://github.com/HalseySpicy/Geeker-Admin
+      link: https://github.com/g122622/CQU-News-Web-Admin-Docs
   image:
     src: /home.png
 features:
@@ -32,11 +32,11 @@ features:
     details: 配置 Eslint、Prettier、Husky、Commitlint、Lint-staged 规范前端工程代码规范
   - icon: ⚒
     title: 丰富的组件和Hooks
-    details: 提供丰富的组件、常用 Hooks 封装，在一定程度上节省你造轮子的时间
+    details: 内置丰富的组件、常用 Hooks 封装
   - icon: 🎨
     title: 个性化主题配置
-    details: 提供多种布局方式切换，主题颜色配置，暗黑、灰色、色弱等模式
+    details: 支持响应式布局，多种布局方式可任意切换，支持主题颜色配置，暗黑、灰色、色弱等模式
   - icon: 🔐
     title: 项目权限管理
-    details: 提供简单的菜单、路由及按钮权限管理方案
+    details: 提供强大的菜单、路由及按钮权限管理方案
 ---
