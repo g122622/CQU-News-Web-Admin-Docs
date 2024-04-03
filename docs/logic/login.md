@@ -1,9 +1,37 @@
-# 登录逻辑
+# 登录与身份验证逻辑
 
 ## 登录涉及的源码文件
 
 1. 视图层：登录表单组件 `src/views/login/components`
 2. 接口层：api登录组件 `src/api/modules/login.ts`
+
+
+## 登录涉及的后端接口
+
+- 路径 `index/login`
+
+- 方法 `post`
+- 参数 
+
+```typescript
+{
+sid: string,
+password: string
+}
+```
+
+- 返回值
+
+```typescript
+{
+"code": int,
+"state": boolean,
+"message": string,
+"data": {
+    "token": xxx
+  }
+}
+```
 
 
 

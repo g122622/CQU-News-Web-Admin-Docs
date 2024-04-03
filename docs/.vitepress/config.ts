@@ -85,7 +85,7 @@ export default {
 					text: "业务逻辑",
 					collapsible: true,
 					items: [
-						{ text: "登录", link: "/logic/login" },
+						{ text: "登录与身份验证", link: "/logic/login" },
 					],
 				},
 				{
