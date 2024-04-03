@@ -56,14 +56,9 @@ export default {
 				],
 			},
 			{ text: "🍵 赞助", link: "/sponsor/index" },
-			{
-				text: "语言",
-				items: [{ text: "日本語", link: "http://ja.spicyboy.surge.sh" }],
-			},
 		],
 
-		sidebar: {
-			"/guide/": [
+		sidebar: [
 				{
 					text: "概览",
 					collapsible: true,
@@ -71,30 +66,31 @@ export default {
 						{ text: "介绍", link: "/guide/introduce" },
 						{ text: "快速上手", link: "/guide/" },
 						{ text: "目录结构", link: "/guide/catalogue" },
-						{ text: "路由、菜单", link: "/guide/router" },
-						{ text: "权限管理", link: "/guide/auth" },
-						{ text: "网络请求", link: "/guide/request" },
+						{ text: "项目规范", link: "/guide/standard" },
 						{ text: "构建、部署", link: "/guide/build" },
 					],
 				},
 				{
-					text: "进阶",
+					text: "基础库",
 					collapsible: true,
 					items: [
-						{ text: "项目规范", link: "/guide/standard" },
+						{ text: "路由、菜单", link: "/guide/router" },
+						{ text: "权限管理", link: "/guide/auth" },
+						{ text: "网络请求", link: "/guide/request" },
 						{ text: "主题配置", link: "/guide/theme" },
 						{ text: "布局模式", link: "/guide/layout" },
 					],
 				},
 				{
-					text: "其他",
+					text: "业务逻辑",
 					collapsible: true,
-					items: [{ text: "常见问题", link: "/guide/question" }],
+					items: [
+						{ text: "登录", link: "/logic/login" },
+					],
 				},
-			],
-			"/components/": [
 				{
 					text: "组件",
+					collapsible: true,
 					items: [
 						{ text: "ProTable", link: "/components/proTable" },
 						{ text: "SelectIcon", link: "/components/selectIcon" },
@@ -106,7 +102,11 @@ export default {
 						{ text: "WangEditor", link: "/components/wangEditor" },
 					],
 				},
-			],
+				{
+					text: "其他",
+					collapsible: true,
+					items: [{ text: "常见问题", link: "/guide/question" }],
+				},
+			]
 		},
-	},
 };

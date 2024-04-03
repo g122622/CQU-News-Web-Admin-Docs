@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /guide/index
+      link: /guide/introduce.html
     - theme: alt
       text: 进入系统
       link: https://admin.spicyboy.cn

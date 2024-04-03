@@ -5,7 +5,6 @@
 ## 项目文件、组件命名规范
 
 - Link（v3）：https://cn.vuejs.org/style-guide
-- Link（v2）：https://v2.cn.vuejs.org/v2/style-guide
 
 :::warning
 💢 CQU-News-Web-Admin 采用 Vue 官方推荐的风格指南，请务必查看

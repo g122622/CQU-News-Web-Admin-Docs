@@ -4,29 +4,6 @@
 
 [CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 一款基于 Vue3.3、TypeScript、Vite3、Pinia、Element-Plus 开源的后台管理系统，使用目前最新技术栈开发。项目提供强大的 [ProTable](../components/proTable.md) 组件，在一定程度上提升我们的开发效率。另外本项目还封装了一些常用组件、hooks、指令、动态路由、按钮级别权限控制等功能。
 
-## 文档
-
-- 中文文档源码在 [CQU-News-Web-Admin-Docs](https://github.com/g122622/CQU-News-Web-Admin-Docs)，采用 [VitePress](https://vitepress.vuejs.org/) 开发。
-- 如发现文档有误，欢迎提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls) 帮助我们改进。
-
-### 本地运行文档
-
-- 如果需要本地运行文档，只需要将文档拉取到本地进行运行即可。
-
-```bash
-# 拉取代码
-git clone https://github.com/g122622/CQU-News-Web-Admin-Docs.git
-
-# 安装依赖
-pnpm install
-
-# 运行文档
-pnpm docs:dev
-
-# 打包文档
-pnpm docs:build
-```
-
 ## 需要掌握的基础知识
 
 - 本项目基于 Vue3.3、Vite4、TS、Pinia、Element-Plus 开发，并全部采用了的单文件组件 `＜script setup＞` 写法。
@@ -54,6 +31,29 @@ pnpm docs:build
   | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt="IE" width="24px" height="24px"  />](http://godban.github.io/browsers-support-badges/)IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Safari |
   | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
   |                                                                                                                not support                                                                                                                |                                                                                          last 2 versions                                                                                          |                                                                                               last 2 versions                                                                                                |                                                                                             last 2 versions                                                                                              |                                                                                             last 2 versions                                                                                              |
+
+## 文档
+
+- 技术文档源码在 [CQU-News-Web-Admin-Docs](https://github.com/g122622/CQU-News-Web-Admin-Docs)，采用 [VitePress](https://vitepress.vuejs.org/) 开发。
+- 如发现文档有误，欢迎提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls) 帮助我们改进。
+
+### 本地运行文档
+
+- 正常情况下不需要本地运行文档。如果实在是需要本地运行文档，只需要将文档拉取到本地进行运行即可。请再次注意，这不是项目的源码，而是项目的文档。
+
+```bash
+# 拉取代码
+git clone https://github.com/g122622/CQU-News-Web-Admin-Docs.git
+
+# 安装依赖
+pnpm install
+
+# 运行文档
+pnpm docs:dev
+
+# 打包文档
+pnpm docs:build
+```
 
 ## 如何加入我们 ？
 
