@@ -1,6 +1,17 @@
-# 项目规范
+# 必读：项目规范
 
-本项目推荐使用 Visual Studio Code 开发
+本项目推荐使用 Visual Studio Code 开发。
+
+在编写代码时，最好也要写一份简要的说明文档（markdown格式）；如果业务需要对框架核心逻辑进行修改，请务必记录下修改内容，告知项目负责人。
+
+:::danger
+❗为了避免潜在的责任风险，如果要在本项目中引入新的库或者技术栈，请务必留意自己所引入项目的许可证类型！！！
+
+![](https://picx.zhimg.com/80/v2-697a904aafbb24fc75afb9b1832e8f31_720w.webp?source=1def8aca)
+
+![](https://pica.zhimg.com/80/v2-8ba24f39093ad67c3960202c50f0a0cd_720w.webp?source=1def8aca)
+
+:::
 
 ## 项目文件、组件命名规范
 
@@ -9,6 +20,13 @@
 :::warning
 💢 CQU-News-Web-Admin 采用 Vue 官方推荐的风格指南，请务必查看
 :::
+
+
+## ↓↓↓ 以下所有内容已经在项目中配置好了，无需更改，仅做了解。
+<br/>
+<br/>
+<br/>
+
 
 ## 代码格式化工具（Prettier）
 

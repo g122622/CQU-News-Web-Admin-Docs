@@ -65,8 +65,8 @@ export default {
 					items: [
 						{ text: "介绍", link: "/guide/introduce" },
 						{ text: "快速上手", link: "/guide/" },
-						{ text: "目录结构", link: "/guide/catalogue" },
-						{ text: "项目规范", link: "/guide/standard" },
+						{ text: "总体目录结构", link: "/guide/catalogue" },
+						{ text: "必读：项目规范", link: "/guide/standard" },
 						{ text: "构建、部署", link: "/guide/build" },
 					],
 				},

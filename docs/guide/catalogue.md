@@ -17,11 +17,11 @@ CQU-News-Web-Admin
 │  ├─ enums               # 项目常用枚举
 │  ├─ hooks               # 常用 Hooks 封装
 │  ├─ languages           # 语言国际化 i18n
-│  ├─ layouts             # 框架布局模块
+│  ├─ layouts             # 框架布局模块。主界面的顶栏、侧栏等组件的本体也在这里
 │  ├─ routers             # 路由管理
 │  ├─ stores              # pinia store
 │  ├─ styles              # 全局样式文件
-│  ├─ typings             # 全局 ts 声明
+│  ├─ typings             # 全局 ts 类型声明
 │  ├─ utils               # 常用工具库
 │  ├─ views               # 项目所有页面
 │  ├─ App.vue             # 项目主组件

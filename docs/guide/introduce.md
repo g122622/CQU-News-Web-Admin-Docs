@@ -4,11 +4,11 @@
 
 [CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 一款基于 Vue3.3、TypeScript、Vite3、Pinia、Element-Plus 开源的后台管理系统，使用目前最新技术栈开发。项目提供强大的 [ProTable](../components/proTable.md) 组件，在一定程度上提升我们的开发效率。另外本项目还封装了一些常用组件、hooks、指令、动态路由、按钮级别权限控制等功能。
 
-## 需要掌握的基础知识
+## 📚️需要掌握的基础知识
 
 - 本项目基于 Vue3.3、Vite4、TS、Pinia、Element-Plus 开发，并全部采用了的单文件组件 `＜script setup＞` 写法。
 
-- 建议您在开发前先学习以下内容，提前了解和学习这些知识，会对项目理解非常有帮助：
+- 建议各位在开发前先学习以下内容，提前了解和学习这些知识，会对项目理解非常有帮助：
   - [Vue3 文档](https://cn.vuejs.org/guide/introduction.html)
   - [Vue-Router 文档](https://router.vuejs.org/zh/guide/)
   - [Vite 文档](https://cn.vitejs.dev/guide/)
@@ -17,12 +17,12 @@
   - [Element-Plus 文档](https://element-plus.org/zh-CN/component/button.html)
   - [ES6 教程](https://es6.ruanyifeng.com/)
 
-## 关于版本更新
+## 📤️关于版本更新
 
-- 本项目后期将会经历不断的更新迭代，后期尽量不进行破坏性更新。对于大多数前端开源管理系统，它们无法像 npm 包那样平滑的升级版本，因此我们为此给出一些升级的建议。
-- 在编写代码时，应尽量避免修改核心部分。如果业务需要对框架核心内容进行修改，请记录下修改内容，以免在之后的升级过程中被覆盖掉。
+- 本项目后期将会经历不断的更新迭代，希望可以慢慢的从小做到大。
+- 在编写代码时，最好也要写一份简要的说明文档；如果业务需要对框架核心逻辑进行修改，请务必记录下修改内容，告知项目负责人。
 
-## 浏览器支持
+## 🌎浏览器支持
 
 - 本地开发推荐使用 Chrome 最新版浏览器 [Download](https://www.google.com/intl/zh-CN/chrome/)。
 
@@ -57,8 +57,8 @@ pnpm docs:build
 
 ## 如何加入我们 ？
 
-- [CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 目前还在持续更新中，本项目欢迎并鼓励您的参与，我们共同努力维护和改进它 💪。项目使用 MIT 开源协议，遵循免费原则，不会收取任何费用和版权费用，您可以放心使用它。
-- 如果您想加入此项目，可以多提供一些好的建议或者提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls)。
+- [CQU-News-Web-Admin](https://github.com/g122622/CQU-News-Web-Admin) 目前还在持续更新中，本项目欢迎并鼓励你的参与，我们共同努力维护和改进它 💪。项目使用 MIT 开源协议，遵循免费原则，不会收取任何费用和版权费用，你可以放心使用它。
+- 如果你想加入此项目，可以多提供一些好的建议或者提交 [Pull requests](https://github.com/g122622/CQU-News-Web-Admin-Docs/pulls)。
 
 <script setup> 
 const contributor = [
