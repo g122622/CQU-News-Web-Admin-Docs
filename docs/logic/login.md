@@ -1,15 +1,15 @@
 # 登录与身份验证逻辑
 
-ge## 第一部分：登录相关
+# 第一部分：登录相关
 
-### 登录涉及的源码文件
+## 登录涉及的源码文件
 
 1. 视图层：登录表单组件 `src/views/login/components/LoginForm.vue`
 2. 接口层：api登录组件 `src/api/modules/login.ts`
 
 
 
-### 登录涉及的后端接口
+## 登录涉及的后端接口
 
 - 路径 `index/login`
 
@@ -38,7 +38,7 @@ password: string
 
 
 
-### 登录逻辑
+## 登录逻辑
 
 1. 用户输入账号和密码，并确认
 2. 触发登录表单组件内绑定的login方法
@@ -65,7 +65,7 @@ password: string
 
 
 
-### 登录表单相关代码
+## 登录表单相关代码
 
 ```typescript
 // 登录表单组件 src/views/login/components
@@ -105,13 +105,13 @@ const login = (formEl: FormInstance | undefined) => {
 
 
 
-## 第二部分：token相关
+# 第二部分：token相关
 
-### token综述
+## token综述
 
 token的获取、存放、管理、携带等流程，在本项目中已经实现全自动管理。在请求api的时候，不用再考虑token问题。
 
-### token的使用
+## token的使用
 
 项目在对axios进行二次封装时，注册了`interceptors`（拦截器），拦截了客户端发给服务端的所有请求，在发起请求前自动在请求头加入`x-access-token`信息，将本地token传给服务器做鉴权：
 
@@ -156,7 +156,7 @@ if (data.code == ResultEnum.OVERDUE) {
 
 :::
 
-### token的存储
+## token的存储
 
 token存放在pinia store中（`src/stores/modules/user.ts`）。
 
