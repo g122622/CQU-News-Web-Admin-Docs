@@ -77,8 +77,9 @@ export default {
 						{ text: "路由、菜单", link: "/guide/router" },
 						{ text: "权限管理", link: "/guide/auth" },
 						{ text: "网络请求", link: "/guide/request" },
-						{ text: "主题配置", link: "/guide/theme" },
+						{ text: "工具库", link: "/guide/utils" },
 						{ text: "布局模式", link: "/guide/layout" },
+						{ text: "主题配置", link: "/guide/theme" },
 					],
 				},
 				{
